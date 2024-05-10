@@ -1,0 +1,41 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 3.5px 3.5px;
+    height: 110vh;
+    width: 100vw;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . . . a a ab ab . . . . ."
+      ". . . . . a a ab ab . . . . ."
+      ". . . . . bc bc bc bc . . . . ."
+      ". . . . . ad ad ad ad . . . . ."
+      ". . . . . ad ad ad ad . . . . ."
+      ". . . . . ae ae ae ae . . . . ."
+      ". . . . . af af ag ag . . . . ."
+      ". . . . . af af ag ag . . . . ."
+      ". . . . . ah ah ah ah . . . . ."
+      ". . . . . ah ah ah ah . . . . ."
+      ". . . . . ai ai ai ai . . . . ."
+      ". . . . . . . . . . . . . .";
+  }
+
+  .a { grid-area: a; background-color: rgb(124, 189, 255);}
+  
+  .ab { grid-area: ab; background-color: rgb(124, 189, 255);}
+  
+  .bc { grid-area: bc; background-color: rgb(124, 189, 255);}
+  
+  .ad { grid-area: ad; background-color: rgb(124, 189, 255);}
+  
+  .ae { grid-area: ae; background-color: rgb(124, 189, 255);}
+  
+  .af { grid-area: af; background-color: rgb(124, 189, 255);}
+  
+  .ag { grid-area: ag; background-color: rgb(124, 189, 255);}
+  
+  .ah { grid-area: ah; background-color: rgb(124, 189, 255);}
+  
+  .ai { grid-area: ai; background-color: rgb(124, 189, 255);}
+  
